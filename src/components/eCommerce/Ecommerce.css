@@ -1,0 +1,10 @@
+.card-body--header {
+  color: black !important;
+  text-align: left !important;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: column !important;
+  margin-bottom: 30px;
+}
