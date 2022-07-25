@@ -1,15 +1,9 @@
 import React from "react";
 import "./MainButton.scss";
+import NewProject from "../NewProject";
 
-function MainButton(props) {
-  return (
-    <>
-      <button className="btn first ">
-        <i className={props.icon}></i>
-        <>{props.name}</>
-      </button>
-    </>
-  );
+function MainButton() {
+  return <NewProject />;
 }
 
 export default MainButton;

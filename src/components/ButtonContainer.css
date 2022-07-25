@@ -1,3 +1,7 @@
 .uil {
   padding: 0px 5px;
 }
+
+.btn--container {
+  display: flex;
+}

@@ -9,7 +9,9 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Ecommerce />
+      <ButtonContainer />
+      <Card />
+      <Tables />
     </div>
   );
 }
